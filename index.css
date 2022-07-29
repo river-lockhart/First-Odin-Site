@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*This the HEADER section*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 101%;
+    height: 150px;
+    background-color: #1F2937;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 130px;;
+}
+
+li{
+    color: lightgray;
+}
+
+
+
+/*This is the DISPLAY section*/
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 150px;
+    background-color: #1F2937;
+    color: white;
+    padding: 100px;
+}
+
+.intro{
+    width: 400px;
+    flex: 1 1 auto;
+    margin-left: 130px;
+    flex-wrap: wrap;
+}
+
+.intro h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-pic img{
+    height: 400px;
+    width: auto;
+    margin-right: 150px;
+    flex-wrap: wrap;
+}
+
+.display button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    width: 160px;
+}
+
+
+
+/*This is the CONTENT section*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;;
+}
+
+.heading{
+    font-size: 42px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 10px;
+    padding: 20px;
+}
+
+.inv-pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin: 40px;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.inventions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+
+.inventions img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    flex:1 1 auto;
+}
+
+.inventions p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+/*This is the QUOTE section*/
+
+.quote{
+    
+}
