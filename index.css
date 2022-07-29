@@ -38,7 +38,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-right: 130px;;
+    margin-right: 200px;;
 }
 
 li{
@@ -151,6 +151,111 @@ li{
 
 /*This is the QUOTE section*/
 
+.inspiration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+    background-color: #E5E7EB;
+}
+
 .quote{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 100px;
+    gap: 30px;
+}
+
+.verbage{
+    font-size: 52px;
+    text-align: center;
+}
+
+.author{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+
+/*This is the SELF-AD section*/
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.self-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    height: 150px;
+    gap: 100px;
+    margin: 160px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    flex: 1 1 auto;
+}
+
+.desc{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 100px;
+    min-width: 350px;
+    flex: 1 1 auto;
+    height: 150px;
+}
+
+.desc h2{
+    margin-bottom: 0;
+    flex: 1 1 auto;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.desc p{
+    margin-top: 0;
+    flex: 1 1 auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup{
+    margin-right: 100px;
+}
+
+.signup button{
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    width: 180px;
+}
+
+
+
+/*This is the FOOTER section*/
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
